@@ -29,12 +29,3 @@ processors:
   # - 'ClassCountProcessor'
   # - 'PackageCountProcessor'
   # - 'KtFileCountProcessor'
-
-naming:
-  active: true
-  variablePattern: '^(_)?[a-z$][a-zA-Z$0-9]*$'
-  constantPattern: '^([A-Z_]*|serialVersionUID)$'
-  methodPattern: '^[a-z$][a-zA-Z$0-9]*$'
-  classPattern: '[A-Za-z$][a-zA-Z_.$]*'
-  enumEntryPattern: '^[A-Z$][a-zA-Z_$]*$'
-  packagePattern: '[a-zA-Z_$]*'
