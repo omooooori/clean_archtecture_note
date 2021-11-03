@@ -45,12 +45,12 @@ jobs:
     - name: Run Inspection
       run: ./gradlew lint
 
-  detekt:
-    runs-on: ubuntu-latest
-    steps:
-    # チェックアウト
-    - uses: actions/checkout@v2
-
-    # 静的解析
-    - name: Lint with detekt
-      run: ./gradlew detekt
+#  detekt:
+#    runs-on: ubuntu-latest
+#    steps:
+#    # チェックアウト
+#    - uses: actions/checkout@v2
+#
+#    # 静的解析
+#    - name: Lint with detekt
+#      run: ./gradlew detekt

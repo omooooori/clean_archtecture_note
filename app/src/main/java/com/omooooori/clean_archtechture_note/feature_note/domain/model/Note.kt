@@ -2,7 +2,11 @@ package com.omooooori.clean_archtechture_note.feature_note.domain.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.omooooori.clean_archtechture_note.ui.theme.*
+import com.omooooori.clean_archtechture_note.ui.theme.RedOrange
+import com.omooooori.clean_archtechture_note.ui.theme.LightGreen
+import com.omooooori.clean_archtechture_note.ui.theme.Violet
+import com.omooooori.clean_archtechture_note.ui.theme.BabyBlue
+import com.omooooori.clean_archtechture_note.ui.theme.RedPink
 
 @Entity
 data class Note(
